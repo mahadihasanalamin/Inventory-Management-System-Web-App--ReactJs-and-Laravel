@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1{
+  margin-left: 180px;
+  font-size: 35px;
+}
+.container-1{
+  margin-left: 180px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-2{
+  margin-left: 180px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-1 div{
+  padding: 10px;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 590px;
+}
+
+.box-1{
+  flex: 1;
+  border: 1px #ccc solid;
+}
+
+.box-2{
+  flex: 3;
+  border: 1px #ccc solid;
+}
+
+.box-3{
+  flex: 1;
+  border: 1px #ccc solid;
+}
+
+.scrollTable{
+  overflow-y: scroll;
+  height: 610px;
+}
+
+.scrollTable thead th{
+  position: sticky;
+  top: 0;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  /* padding: 6px 8px 6px 16px; */
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  border-bottom: #818181;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.logout{
+  position: sticky;
+  width: 50%;
+  bottom: 10px;
+}
